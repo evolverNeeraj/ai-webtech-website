@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI WebTech - Advanced AI Solutions & Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">AI<span class="accent">WebTech</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-bg"></div>
+            <canvas id="particles"></canvas>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Transforming Ideas</span><br>
+                Into <span class="typing-text"></span>
+            </h1>
+            <p class="hero-subtitle">
+                We specialize in cutting-edge AI solutions including Agents, RAG systems,
+                Vector Databases, and Machine Learning innovations that drive your business forward.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>AI Models Deployed</p>
+                </div>
+                <div class="stat">
+                    <h3>95%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat">
+                    <h3>24/7</h3>
+                    <p>AI Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">AI Services</span></h2>
+                <p>Comprehensive AI solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Agents</h3>
+                    <p>Intelligent autonomous agents that can perform complex tasks, make decisions, and interact naturally with users.</p>
+                    <ul class="service-features">
+                        <li>Custom Agent Development</li>
+                        <li>Multi-Agent Systems</li>
+                        <li>Task Automation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>RAG Systems</h3>
+                    <p>Retrieval-Augmented Generation for intelligent document processing and knowledge management.</p>
+                    <ul class="service-features">
+                        <li>Document Intelligence</li>
+                        <li>Knowledge Base Integration</li>
+                        <li>Contextual Understanding</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Vector Databases</h3>
+                    <p>High-performance vector similarity search and semantic retrieval systems.</p>
+                    <ul class="service-features">
+                        <li>Pinecone Integration</li>
+                        <li>ChromaDB Solutions</li>
+                        <li>Semantic Search</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Custom ML models and predictive analytics to transform your data into actionable insights.</p>
+                    <ul class="service-features">
+                        <li>Model Training</li>
+                        <li>Fine-tuning LLMs</li>
+                        <li>Predictive Analytics</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>NLP Solutions</h3>
+                    <p>Natural Language Processing for text analysis, sentiment analysis, and language understanding.</p>
+                    <ul class="service-features">
+                        <li>Text Classification</li>
+                        <li>Entity Recognition</li>
+                        <li>Sentiment Analysis</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Seamless integration of AI capabilities into your existing systems and workflows.</p>
+                    <ul class="service-features">
+                        <li>API Development</li>
+                        <li>Cloud Deployment</li>
+                        <li>System Architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <p>Showcasing our expertise in AI innovation</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-message"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Intelligent Customer Support Agent</h3>
+                        <p>AI-powered chatbot with RAG capabilities for 24/7 customer service, reducing response time by 85%.</p>
+                        <div class="portfolio-tags">
+                            <span>LangChain</span>
+                            <span>GPT-4</span>
+                            <span>Vector DB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Document Intelligence Platform</h3>
+                        <p>Advanced document processing system using RAG for legal contract analysis and compliance checking.</p>
+                        <div class="portfolio-tags">
+                            <span>RAG</span>
+                            <span>ChromaDB</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Semantic Search Engine</h3>
+                        <p>Enterprise search solution with vector similarity matching for improved information retrieval.</p>
+                        <div class="portfolio-tags">
+                            <span>Pinecone</span>
+                            <span>Embeddings</span>
+                            <span>NLP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <p>ML-driven forecasting system for supply chain optimization with real-time insights.</p>
+                        <div class="portfolio-tags">
+                            <span>TensorFlow</span>
+                            <span>Time Series</span>
+                            <span>MLOps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Multi-Agent Collaboration System</h3>
+                        <p>Autonomous agent network for complex problem-solving and task delegation.</p>
+                        <div class="portfolio-tags">
+                            <span>AutoGPT</span>
+                            <span>Agents</span>
+                            <span>Orchestration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Multilingual NLP Pipeline</h3>
+                        <p>Cross-language sentiment analysis and translation system for global market insights.</p>
+                        <div class="portfolio-tags">
+                            <span>Transformers</span>
+                            <span>BERT</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose <span class="gradient-text">AI WebTech</span></h2>
+                <p>Leading the AI revolution with innovation and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Pioneering AI Solutions for Tomorrow's Challenges</h3>
+                    <p>
+                        At AI WebTech, we're passionate about harnessing the power of artificial intelligence
+                        to solve complex business problems. Our team of AI experts specializes in developing
+                        cutting-edge solutions that drive innovation and growth.
+                    </p>
+                    <p>
+                        From intelligent agents to advanced RAG systems, we deliver tailored AI solutions
+                        that transform how businesses operate, make decisions, and interact with their customers.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>State-of-the-art AI Technologies</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Custom Solutions for Your Business</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Scalable and Secure Architecture</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Continuous Support and Updates</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Fast Deployment</h4>
+                        <p>Rapid prototyping and deployment of AI solutions</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Enterprise Security</h4>
+                        <p>Bank-grade security for all AI implementations</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-infinity"></i>
+                        <h4>Scalable Solutions</h4>
+                        <p>Built to grow with your business needs</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-headset"></i>
+                        <h4>Expert Support</h4>
+                        <p>Dedicated team for ongoing assistance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Build <span class="gradient-text">Something Amazing</span></h2>
+                <p>Get in touch to discuss your AI project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Transform Your Business?</h3>
+                    <p>
+                        Whether you need AI agents, RAG systems, or custom machine learning solutions,
+                        we're here to help bring your vision to life.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>contact@aiwebtech.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Global Service</h4>
+                                <p>Available Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" placeholder="Company (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select Service Interested In</option>
+                            <option value="ai-agents">AI Agents</option>
+                            <option value="rag">RAG Systems</option>
+                            <option value="vector-db">Vector Databases</option>
+                            <option value="ml">Machine Learning</option>
+                            <option value="nlp">NLP Solutions</option>
+                            <option value="integration">AI Integration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">AI<span class="accent">WebTech</span></span>
+                    <p>Pioneering the future with AI innovation</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">AI Agents</a></li>
+                        <li><a href="#">RAG Systems</a></li>
+                        <li><a href="#">Vector Databases</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI WebTech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
